@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-ingreso{
+    padding: 10% 40%  2%;
+}
+
+.ingreso{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: #9d204c;
+    color: white;
+    padding: 10px;
+}
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20%;
+    
+}
+
+.fahrenheit,
+.kelvin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.fahrenheit{
+    background-image: linear-gradient(to right, #191c65, #6359c1, #3CA6A6);
+}
+
+.kelvin{
+    background-image: linear-gradient(to right, #9d204c, #874c86, #88539d);
+  
+}
+
+.fahrenheit h2,
+.kelvin h2{
+    margin: 5%;
+    border: 1px solid;
+    border-color: blueviolet;
+}
+
+#resultado-c°-k°,
+#resultado-c°-f°{
+    margin-bottom: 20px;
+}
+
